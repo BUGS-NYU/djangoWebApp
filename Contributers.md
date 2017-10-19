@@ -1,3 +1,0 @@
-#Contributers
-
-Lama Ahmad 
