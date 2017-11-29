@@ -1,5 +1,4 @@
-# BUGS Open Source Django Web App
-# NYU Opportunities Forum
+# BUGS Open Source Django Web App - NYU Opportunities Forum
 
 ## Summary:
 
