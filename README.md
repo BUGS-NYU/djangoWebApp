@@ -1,11 +1,11 @@
-#BUGS Open Source Django Web App
-#NYU Opportunities Forum
+# BUGS Open Source Django Web App
+# NYU Opportunities Forum
 
-##Summary:
+## Summary:
 
 A web application that allows NYU students to share and find job opportunities / conferences / events that would be relevant for the NYU community. It’s a platform for students, by students. 
 
-##Requirements / To-Dos:
+## Requirements / To-Dos:
 
 - [ ] Ability to post opportunities within higher level categories (suggestions for categories!) 
 - [ ] Ability to view and search for opportunities (searching by keyword)
