@@ -31,6 +31,18 @@ virtualenv venv
 source venv/bin/activate
 ```
 
+Install all the packages by running 
+
+```
+pip install -r requirements.txt (Python 2)
+or 
+pip3 install -r requirements.txt
+```
+
+Set up database by `python manage.py makemigrations` and `python manage.py migrate`
+
+Create Super user or admin to work with the database `python manage.py createsuperuser`
+
 To make sure that you've properly installed your django app run `python manage.py runserver` 
 
 Open your web browser and visit the following site.
@@ -38,6 +50,8 @@ Open your web browser and visit the following site.
 ```
 http://localhost:8000/
 ```
+
+Use ``http://localhost:8000/admin`` to visit admin page
 
 
 
