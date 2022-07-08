@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # so that django can be aware of your app
+    "forum.apps.ForumConfig",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +57,8 @@ ROOT_URLCONF = 'nyuopps.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # add your app template to dir so django can find it
+        'DIRS': [BASE_DIR+"/forum"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
